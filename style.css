@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: gray;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+p{
+    width: 100%;
+    text-align: center;  
+    color: blue;
+}
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 80px;
+
+}
+.botao{
+    background: aqua;
+    border: none;
+    border-radius: 5px;
+    width: 125px;
+    height: 30px;
+    border: inset 1px black;
+}
+.botao:hover{
+    cursor: pointer;
+    background: blueviolet;
+    color: white;
+    border: inset 1px black;
+}
+.botao:active{
+    border: inset 3px black;
+    background: blue;
+    color: white;
+}
+.nome{
+    display: none;
+    justify-content: center;
+    color: green;
+}
+.input{
+    display: flex;
+    margin: 0 auto;
+    width: 400px;
+    justify-content: center;
+}
+header{
+    padding: 10px;
+    background-color: black;
+    color: crimson;
+}
