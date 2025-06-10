@@ -53,7 +53,7 @@ function Voltar(){
     document.getElementById("text").style.display = "block";
 }
 function ApagarTudo(){
-    // document.write("<style>body{background-color:black;} h1{color:red; width: 100%; text-align: center;}</style> <h1>VOCÊ APAGOU TUDO, AGORA VAI TER CONSEQUÊNCIAS")
+    // document.write("<style>body{background-color:black;} h1{color:red; width: 100%; text-align: center;}</style> <h1>VOCÊ APAGOU TUDO, AGORA TERÁ CONSEQUÊNCIAS")
     document.write("");
 }
 function Nome(){
@@ -94,7 +94,7 @@ function Nome(){
         }
         console.log(repetir)
         if(repetir == 0){
-        document.getElementById("enviar").innerHTML = '<a href = "main.html"><button class="botao">Enviar</button></a>'
+        document.getElementById("enviar").innerHTML = '<a href = "main.html"><button class="botao">Entrar</button></a>'
         sessionStorage.setItem("Nome", nome);
         alert("Login feito com sucesso, aperte entrar para avançar");
         repetir = 1
